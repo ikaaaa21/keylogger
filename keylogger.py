@@ -25,3 +25,7 @@ f.close()
 
 with open('log.txt', 'a') as f: #as f is the variable saved in the memory
     f.write('Hello  \n') # write to the file 
+
+# the file is closed automatically after the block of code is executed
+
+# with pynput you can listen and contol the keystorkes and mouse clicks
